@@ -29,16 +29,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_dknsbns", // ✅ Direct Service ID
+        "template_soyq025", // ✅ Direct Template ID
         {
           from_name: form.name,
           to_name: "Mudassir",
           from_email: form.email,
-          to_email: import.meta.env.VITE_APP_EMAILJS_RECEIVER_EMAIL,
+          to_email: "mudassirsanderwale5@gmail.com", // ✅ Direct receiver email
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "jcssRf25WKtjOrVv0" // ✅ Direct Public Key
       )
       .then(
         () => {
