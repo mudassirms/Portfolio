@@ -11,13 +11,13 @@ import {
   git,
   python,
   docker,
-  meta,
-  shopify,
   carrent,
   jobit,
   tripguide,
   Maverick,
-  
+  DataSense,
+  SupportSense,
+  SQL,
 } from "../assets";
 
 export const navLinks = [
@@ -74,6 +74,10 @@ const technologies = [
   {
     name: "Python",
     icon: python,
+  },
+  {
+    name:"SQL",
+    icon: SQL,
   },
   {
     name: "Node JS",
@@ -239,6 +243,65 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
+  {
+  name: "DataSense",
+  description:
+    "DataSense is an intelligent data analytics platform developed at MaverickIgnite Solutions LLP. It empowers users to explore and analyze business data using natural language queries. Built with cutting-edge RAG (Retrieval-Augmented Generation) techniques and large language models (LLMs), DataSense translates everyday questions into accurate SQL queries to deliver actionable insights effortlessly.",
+  tags: [
+    {
+      name: "Python",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "RAG",
+      color: "green-text-gradient",
+    },
+    {
+      name: "LLM",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Data Analytics",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Natural Language Processing",
+      color: "purple-text-gradient",
+    },
+  ],
+  image: DataSense,
+    source_code_link: "https://github.com/",
+},
+{
+  name: "SupportSense",
+  description:
+    "SupportSense is an AI-powered customer support automation platform developed at MaverickIgnite Solutions LLP. It leverages natural language understanding and large language models (LLMs) to automate responses, classify support tickets, and provide instant resolutions to common queries. Designed for scalability, SupportSense enhances customer experience by reducing response times and streamlining support workflows.",
+  tags: [
+    {
+      name: "Python",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "LLM",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Customer Support",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Automation",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Natural Language Processing",
+      color: "purple-text-gradient",
+    },
+  ],
+  image: SupportSense,
+  source_code_link: "https://github.com/",
+},
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

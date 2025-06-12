@@ -47,7 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       I'm an AI and Data Science Developer with a strong background in Python, React, HTML/CSS, and modern web development technologies. I specialize in building intelligent systems that derive insights from data and enable smarter decision-making. My experience spans data analysis, machine learning, and developing AI-powered applications that solve real-world problems. With a passion for innovation and a fast-learning mindset, I enjoy collaborating on projects that blend AI, data, and user-centric design to create meaningful impact. Let’s bring intelligent solutions to life together!
+       I’m an AI and Data Science Engineer with a strong foundation in Python, React, HTML/CSS, and modern web development technologies. My expertise spans across machine learning, deep learning (TensorFlow, PyTorch), data analysis (Pandas, NumPy, Scikit-learn), data visualization (Matplotlib, Plotly), and API development using FastAPI and Flask. I build intelligent, scalable applications that merge analytical power with seamless user interfaces.
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
