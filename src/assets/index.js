@@ -33,7 +33,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import DataSense from "./DataSense.png";
 import SupportSense from "./SupportSense.png";
-
+import StyleHeaven from "./StyleHeaven.png";
+import Bookifycom from "./Bookiflycom.png";
 export {
   python,
   logo,
@@ -68,4 +69,6 @@ export {
   DataSense,
   SupportSense,
   SQL,
+  StyleHeaven,
+  Bookifycom,
 };

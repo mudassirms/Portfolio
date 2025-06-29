@@ -17,7 +17,9 @@ import {
   Maverick,
   DataSense,
   SupportSense,
+  StyleHeaven,
   SQL,
+  Bookifycom,
 } from "../assets";
 
 export const navLinks = [
@@ -288,7 +290,65 @@ const projects = [
   image: SupportSense,
   source_code_link: "https://github.com/",
 },
+{
+  name: "Bookify.com",
+  description:
+    "SupportSense is an AI-powered customer support automation platform developed at MaverickIgnite Solutions LLP. It leverages natural language understanding and large language models (LLMs) to automate responses, classify support tickets, and provide instant resolutions to common queries. Designed for scalability, SupportSense enhances customer experience by reducing response times and streamlining support workflows.",
+  tags: [
+    {
+      name: "Python",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "LLM",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Customer Support",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Automation",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Natural Language Processing",
+      color: "purple-text-gradient",
+    },
+  ],
+  image: Bookifycom,
+  source_code_link: "https://github.com/",
+},
 
+{
+  name: "StyleHaven",
+  description:
+    "StyleHaven is a modern, responsive clothing store website developed at MaverickIgnite Solutions LLP. It offers a seamless shopping experience with features like dynamic product listings, user authentication, shopping cart, and order management. The frontend is built with ReactJS for a fast and interactive UI, while the backend utilizes Java for business logic and SQL for robust data storage and retrieval.",
+  tags: [
+    {
+      name: "ReactJS",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Java",
+      color: "red-text-gradient",
+    },
+    {
+      name: "SQL",
+      color: "orange-text-gradient",
+    },
+    {
+      name: "E-Commerce",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Web Development",
+      color: "purple-text-gradient",
+    },
+  ],
+  image: StyleHeaven, // Replace with your actual image variable or import
+  source_code_link: "https://github.com/", // Add actual repo link
+},
 ];
 
 export { services, technologies, experiences, testimonials, projects };
